@@ -1,0 +1,125 @@
+# The following console commands were needed to get this project un and running. 
+
+ 2020  apt-get install nvm
+ 2021  sudo apt-get install nvm
+ 2022  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.7/install.sh | bash
+ 2023  export NVM_DIR="/home/simon/.nvm"
+ 2024  [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+ 2025  ps -ef | grep nvm
+ 2026  source ~/.bashrc
+ 2027  command -v nvm
+ 2028  man command
+ 2029  nvm install node
+ 2030  nvm run node --version
+ 2031  nvm exec 4.2 node --version
+ 2032  nvm exec 6.5.0 node --version
+ 2033  nvm which 5.0
+ 2034  nvm which 6.5.0
+ 2035  npm install -g bower
+ 2036  bower install grunt
+ 2037  bower install gulp
+ 2038  npm update -g npm
+ 2039  npm install -g grunt-cli
+ 2040  grunt
+ 2041  ls -ltr
+ 2042  pwd
+ 2043  cd
+ 2044  grunt
+ 2045  npm install --global gulp-cli
+ 2046  npm install -g generator-angular-resources
+ 2047  npm install -g generator-karma
+ 2048  npm install -g yo
+ 2049  echo "export NODE_PATH=$NODE_PATH:/home/simon/.nvm/versions/node/v6.5.0/lib/node_modules" >> ~/.bashrc && source ~/.bashrc
+ 2050  npm install -g yo
+ 2051  pwd
+ 2052  cd dev
+ 2053  ls -l
+ 2054  mkdir angularjs
+ 2055  cd angularjs
+ 2056  mkdir CRUDclient
+ 2057  cd CRUDclient/
+ 2058  you angular CRUDclient
+ 2059  yo angular CRUDclient
+ 2060  yo generator-angular-resources CRUDclient
+ 2061  npm install -g generator-angular-resources
+ 2062  npm install generator-karma
+ 2063  npm install yo
+ 2064  yo angular CRUDclient
+ 2065  npm search yeoman-generator
+ 2066  npm install -g generator-angular-resources
+ 2067  sudo npm install generator-karma
+ 2068  nvm install yo
+ 2069  nvm ls-remote
+ 2070  history 30
+ 2071  nvm
+ 2072  history 50
+ 2073  echo $NODE_PATH
+ 2074  npm install -g generator-angular-resources
+ 2075  npm i -g yo generator-karma
+ 2076  npm install -g generator-angular-resources
+ 2077  npm install -g grunt-cli bower yo generator-karma generator-angular
+ 2078  yo angular CRUDclient
+ 2079  ls -l
+ 2080  rm -r *
+ 2081  ls -l
+ 2082  yo angular CRUDclient
+ 2083  ls -l
+ 2084  rm -r *
+ 2085  yo angular CRUDclient
+ 2086  grunt
+ 2087  grunt test
+ 2088  grunt test --force
+ 2089  npm install karma --save-dev
+ 2090  grunt
+ 2091  npm install compass --save-dev
+ 2092  grunt
+ 2093  grunt test
+ 2094  npm install grunt-contrib-compass --save-dev
+ 2095  grunt test
+ 2096  sudo gem install compass
+ 2097  grunt test
+ 2098  grunt.loadNpmTasks('grunt-contrib-compass');.
+ 2099  grunt.loadNpmTasks('grunt-contrib-compass')
+ 2100  grunt loadNpmTasks('grunt-contrib-compass')
+ 2101  npm i grunt-contrib-compass --save-dev
+ 2102  grunt.loadNpmTasks('grunt-contrib-compass');
+ 2103  sudo gem install compass
+ 2104  grunt
+ 2105  npm karma
+ 2106  npm -l | grep karma
+ 2107  npm -l
+ 2108  npm ls
+ 2109  npm ls | grep karma
+ 2110  grunt
+ 2111  npm install generator-karma
+ 2112  grunt
+ 2113  npm install jit-grunt --save-dev
+ 2114  grunt
+ 2115  ls -l
+ 2116  vi Gruntfile.js 
+ 2117  vi package.json 
+ 2118  npm install grunt-karma --save-dev
+ 2119  vi package.json 
+ 2120  ls -ltr
+ 2121  grunt
+ 2122  cat package.json 
+ 2123  ls -l
+ 2124  cd app
+ 2125  ls -l
+ 2126  cd scripts
+ 2127  ls
+ 2128  cd controllers/
+ 2129  ls
+ 2130  cd ../..
+ 2131  pwd
+ 2132  cd ..
+ 2133  ls -l
+ 2134  grep cssmin
+ 2135  grep . cssmin
+ 2136  grep cssmin *
+ 2137  vi node_modules/grunt-contrib-cssmin/tasks/cssmin.js # line 40 hack
+ 2138  grunt
+ 2139  grunt test
+ 2140  grunt serve
+ 2141  history 100
+ 2142  history 300 > bootstrap_commands.lst
